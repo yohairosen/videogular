@@ -79,8 +79,11 @@ angular.module("com.2fdevs.videogular")
         // PUBLIC $API
         this.videogularElement = null;
 
-        this.clearMedia = function () {
-            this.mediaElement[0].src = '';
+        this.clearMedia = function (event) {
+            if(event && !event.defaultPrevented){
+                this.mediaElement[0].src = '';    
+            }
+            
             this.mediaElement[0].removeEventListener("canplay", this.onCanPlay.bind(this), false);
             this.mediaElement[0].removeEventListener("loadedmetadata", this.onLoadMetaData.bind(this), false);
             this.mediaElement[0].removeEventListener("waiting", this.onStartBuffering.bind(this), false);
