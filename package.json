@@ -1,10 +1,10 @@
 {
   "name": "videogular",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "description": "Videogular is a video application framework for desktop and mobile powered by AngularJS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yohairosen/videogular/"
+    "url": "https://github.com/yohairosen/videogular.git"
   },
   "dependencies": {},
   "devDependencies": {
