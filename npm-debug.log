@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.8.3
+3 info using node@v0.12.6
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/yohairosen/videogular',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/yohairosen/.npm/videogular/1.2.16/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/yohairosen/.npm correctMkdir not in flight; initializing
+10 info lifecycle videogular@1.2.16~prepublish: videogular@1.2.16
+11 silly lifecycle videogular@1.2.16~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/yohairosen/.npm/videogular/1.2.16/package.tgz',
+12 verbose tar pack   '/Users/yohairosen/videogular' ]
+13 verbose tarball /Users/yohairosen/.npm/videogular/1.2.16/package.tgz
+14 verbose folder /Users/yohairosen/videogular
+15 verbose addLocalTarball adding from inside cache /Users/yohairosen/.npm/videogular/1.2.16/package.tgz
+16 verbose correctMkdir /Users/yohairosen/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd videogular@1.2.16
+18 verbose afterAdd /Users/yohairosen/.npm/videogular/1.2.16/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/yohairosen/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/yohairosen/.npm/videogular/1.2.16/package/package.json written
+21 silly publish { name: 'videogular',
+21 silly publish   version: '1.2.16',
+21 silly publish   description: 'Videogular is a video application framework for desktop and mobile powered by AngularJS',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'https://github.com/yohairosen/videogular/' },
+21 silly publish   dependencies: {},
+21 silly publish   devDependencies:
+21 silly publish    { bower: '1.3.12',
+21 silly publish      karma: '~0.13.0',
+21 silly publish      grunt: '~0.4.1',
+21 silly publish      'grunt-cli': '~0.1.13',
+21 silly publish      'grunt-contrib-clean': '~0.5.0',
+21 silly publish      'grunt-contrib-concat': '~0.3.0',
+21 silly publish      'grunt-contrib-copy': '~0.4.1',
+21 silly publish      'grunt-contrib-cssmin': '~0.6.0',
+21 silly publish      'grunt-contrib-sass': '~0.7.3',
+21 silly publish      'grunt-contrib-uglify': '~0.2.0',
+21 silly publish      'grunt-contrib-watch': '~0.5.2',
+21 silly publish      'grunt-express': '~1.4.1',
+21 silly publish      'grunt-hub': '^0.7.0',
+21 silly publish      'grunt-karma': '^0.12.0',
+21 silly publish      'grunt-ngdocs': '~0.2.1',
+21 silly publish      'grunt-open': '~0.2.0',
+21 silly publish      'grunt-release': '~0.7.0',
+21 silly publish      'jasmine-core': '^2.3.4',
+21 silly publish      'karma-chrome-launcher': '>=0.1.4',
+21 silly publish      'karma-coverage': '~0.2.6',
+21 silly publish      'karma-firefox-launcher': '>=0.1.3',
+21 silly publish      'karma-jasmine': '^0.3.6',
+21 silly publish      'karma-junit-reporter': '~0.1',
+21 silly publish      'karma-ng-html2js-preprocessor': '~0.1.0',
+21 silly publish      'karma-script-launcher': '>=0.1.0',
+21 silly publish      'load-grunt-tasks': '^3.2.0' },
+21 silly publish   engines: { node: '>=0.8.0' },
+21 silly publish   scripts: { test: 'grunt' },
+21 silly publish   keywords: [ 'video', 'player', 'framework', 'angular2', 'javascript' ],
+21 silly publish   author:
+21 silly publish    { name: 'Raul Jimenez',
+21 silly publish      email: 'elecash@gmail.com',
+21 silly publish      url: 'http://twofuckingdevelopers.com/' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/2fdevs/videogular/issues' },
+21 silly publish   homepage: 'http://videogular.com',
+21 silly publish   readme: '# Videogular 2.0\n\nVideogular 2.0 is under active development and will be available with Angular 2. Videogular 2.0 will follow the same philosophy and we\'re open to discuss any possibilities. If you want to contribute you can open a new issue with your suggestions or clone the repository to make pull requests.\n\nYou can find a demo here:\nhttp://www.videogular.com/alpha\n\nAnd this is the development repository:\nhttps://github.com/videogular/videogular2\n\n## Videogular\n[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/2fdevs/videogular?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n**Videogular is an HTML5 video player for AngularJS**. Videogular is a wrapper over the HTML5 video tag, so you just could add whatever you want. This provides a very powerful, but simple to use solution, for everybody.\n\nYou could see a demo here: [www.videogular.com](http://www.videogular.com)\n\n## Why Videogular?\n\nWe\'re developing Videogular focusing on mobile devices and HTML5 video special capabilities. Videogular brings to you these key features:\n\n* **Bindable properties**: Videogular\'s directives are bindable, just [try the demo](http://www.videogular.com) and play with bindings.\n* **Extendable through plugins**: Thanks to our API you can develop your own plugins.\n* **Theme based**: Customize it with your own themes and change between them on the fly.\n* **Native fullscreen support**: Enjoy with native fullscreen support for Chrome, Firefox, Safari, iOS and Chrome for Android.\n* **Mobile support**: Videogular can detect mobile devices to show/hide components in case that aren\'t supported. Also, you could use it in your responsive websites, Videogular will always scale to fit its container.\n\n## Documentation and how to install\n\nSee the [Videogular\'s website](http://www.videogular.com) for more info about [how to start and installation notes](http://www.videogular.com/tutorials/how-to-start/). We have also [tutorials](http://www.videogular.com/tutorials/) and [examples](http://www.videogular.com/examples/) if you need a guide or code samples.\n\nFor more info you can check the full [Videogular API documentation](http://www.videogular.com/docs/).\n\n## Running and building\n\nTo run the project and create the minified and debug files just run `grunt`.\n\nThis will run the tests and if everything works as expected it would create a `build` folder on root.\n\n## Third-party plugins\n\nIf you have developed a Videogular\'s plugin or theme [contact us through this form](http://www.videogular.com/contact/) and we will add you to this list.\n\n* [**Youtube plugin**](https://github.com/NamPNQ/bower-videogular-youtube) by **[NamPNQ](https://github.com/NamPNQ)**\n* [**Quiz plugin**](https://github.com/NamPNQ/bower-videogular-quiz) by **[NamPNQ](https://github.com/NamPNQ)**\n* [**Flash fallback plugin**](https://github.com/NamPNQ/bower-videogular-flash) by **[NamPNQ](https://github.com/NamPNQ)**\n* [**Background video plugin**](https://gist.github.com/panurge-ws/525caef640784a487aa2) by **[panurge-ws](https://github.com/panurge-ws)**\n* [**Videogular subtitle plugin**](https://github.com/farhan-repo/videogular-subtitle-plugin) (for Videogular 0.4.0) by **[farhan-repo](https://github.com/farhan-repo)**\n* [**Videogular Cuepoints plugin**](https://github.com/HarryCutts/videogular-cuepoints) by **[HarryCutts](https://github.com/HarryCutts)** (not to be confused with the later [Cue Points feature](http://www.videogular.com/tutorials/videogular-cue-points-synchronize-video-with-twitter/))\n\n## Migrate to 1.0 from an older version of Videogular\n\nAll attributes for the various directives (including plugins) are still being maintained as usual, however, the naming of several have changed significantly to conform to an improved coding style. Here is a semi-exhaustive list:\n\n1. No more `<vg-video>`.  Ditched in favor of `<vg-media>` that supports audio as well.\n2. `vg-controls`:\n\n    ```\n    vg-timedisplay -> vg-time-display\n    vg-scrubBar -> vg-scrub-bar\n    vg-scrubbarcurrenttime -> vg-scrub-bar-current-time\n    vg-timedisplay -> vg-time-display\n    vg-mutebutton -> vg-mute-button\n    vg-volumebar -> vg-volume-bar\n    ```\n    \n3. `vg-poster-image -> vg-poster`\n\nFor a complete migration guide we recommend you to check the [Migration guide to Videogular 1.0.0](http://www.videogular.com/tutorials/migration-guide-to-videogular-1-0-0/).\n\n## Supported by\n\nVideogular wants to thank you to this companies for support this project:\n\n[![](http://www.videogular.com/wp-content/uploads/2015/08/browserstack.png)](https://www.browserstack.com)\n[![](http://www.videogular.com/wp-content/uploads/2015/08/logo_jetbrains.png)](https://www.jetbrains.com)\n[![](http://www.videogular.com/wp-content/uploads/2015/03/logo-q.png)](http://q-interactiva.com)\n\n## Credits\n\nVideogular is an open source project maintained by (literally) [two fucking developers](http://twofuckingdevelopers.com/).\n\nWe want to thank all our contributors: [Raúl Jiménez](https://github.com/Elecash), [Robert Zhang](https://github.com/rogerz), [Javier Tejero](https://github.com/javiertejero), [Marcos González](https://github.com/qmarcos), [Rafał Lindemann](https://github.com/panrafal), [Alberto Tafoya](https://github.com/withattribution), [Sergey Okhotnitski](https://github.com/5erg), [Javier Cejudo](https://github.com/javiercejudo), [Sam Lau](https://github.com/schmooie), [paxal78](https://github.com/paxal78), [Raymond Klass](https://github.com/RaymondKlass), [Harry Cutts](https://github.com/Fodaro), [Chris MacPherson](https://github.com/chrismacp), [stefanvonderkrone](https://github.com/stefanvonderkrone), [Emil Ibatullin](https://github.com/cawabunga), [Uzair Sajid](https://github.com/UzEE), [pavelnikolov](https://github.com/pavelnikolov), [Frank3K](https://github.com/Frank3K), [EmilioAiolfi](https://github.com/EmilioAiolfi), [Bernhelm](https://github.com/Bernhelm), [Morriz](https://github.com/Morriz), [Chris Funk](https://github.com/a727891), [Johann Beishline](https://github.com/techmodo), [edisonh](https://github.com/edisonh), [Nainterceptor](https://github.com/Nainterceptor), [Max Maes](https://github.com/maxmaes), [pire](https://github.com/pire), [Davin Kevin](https://github.com/davinkevin), [bkuzma](https://github.com/bkuzma), [VanVan](https://github.com/VanVan), [Kevin Feinberg](https://github.com/kfeinUI), [Jonathan Asquier](https://github.com/jonathanasquier), [Centsent](https://github.com/centsent), [Zane McCaig](https://github.com/zanemcca), [Nils Thingvall](https://github.com/turbidwater), [Tim Costa](https://github.com/tjsail33), [Alex Wilde](https://github.com/alexthewilde), [jarrodlytle](https://github.com/jarrodlytle), [daviddk](https://github.com/daviddk) and [our bug submitters](https://github.com/2fdevs/videogular/issues?state=open).\n\n## Changelog\nHere you can see the complete [changelog](https://github.com/2fdevs/videogular/blob/master/CHANGELOG.md)\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'b7541babc4f4d50c758a42622a196e8fbee29aec',
+21 silly publish   _id: 'videogular@1.2.16',
+21 silly publish   _shasum: 'dfa520fc993cc0f9ce94840cb31e277d6c54173e',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name videogular
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data { raw: 'videogular',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'videogular',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/videogular
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/yohairosen/.npm/videogular/1.2.16/package.tgz
+30 verbose stack Error: auth required for publishing
+30 verbose stack     at CachingRegistryClient.publish (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:137:14
+30 verbose stack     at mapToRegistry (/usr/local/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+30 verbose stack     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:106:3)
+30 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+30 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+30 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+30 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:72:5
+30 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+31 verbose cwd /Users/yohairosen/videogular
+32 error Darwin 15.4.0
+33 error argv "node" "/usr/local/bin/npm" "publish"
+34 error node v0.12.6
+35 error npm  v3.8.3
+36 error code ENEEDAUTH
+37 error need auth auth required for publishing
+38 error need auth You need to authorize this machine using `npm adduser`
+39 verbose exit [ 1, true ]
